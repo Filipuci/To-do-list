@@ -9,4 +9,4 @@ Marcar tarefas como concluídas.
 Alternar entre o modo claro e o modo escuro, proporcionando uma interface visual ajustável para diferentes preferências de iluminação.
 
 # 🔗 Acesse o Projeto
-Você pode acessar a aplicação através deste link: https://filipuci.github.io/To-do-list/
+Você pode acessar o site através deste link: https://filipuci.github.io/To-do-list/
