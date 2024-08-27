@@ -4,8 +4,8 @@ Este é um projeto pessoal que desenvolvi para praticar habilidades de front-end
 # ✅ Descrição do Projeto
 Este projeto consiste em uma To-Do List que permite:
 
-Adicionar novas tarefas.
-Marcar tarefas como concluídas.
+Adicionar novas tarefas.  
+Marcar tarefas como concluídas.  
 Alternar entre o modo claro e o modo escuro, proporcionando uma interface visual ajustável para diferentes preferências de iluminação.
 
 # 🔗 Acesse o Projeto
