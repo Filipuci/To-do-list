@@ -99,3 +99,43 @@ body {
     color: #000;
   }
 }
+
+@media (min-width:800px) and (max-width:1100px) {
+  .input-box {
+    height: 50px;
+    width: 400px;
+  }
+
+  #input {
+    font-size: 25px;
+  }
+
+  #submit-btn {
+    padding: 12px;
+    font-size: 23px;
+  }
+
+  .list ul li label {
+    font-size: 30px;
+  }
+}
+
+@media (min-width:400px) and (max-width:800px) {
+  .input-box {
+    height: 45px;
+    width: 350px;
+  }
+
+  #input {
+    font-size: 19px;
+  }
+
+  #submit-btn {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .list ul li label {
+    font-size: 22px;
+  }
+}
