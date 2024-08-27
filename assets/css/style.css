@@ -1,0 +1,101 @@
+:root {
+  --light-theme: #FFE66D;
+  --dark-theme: #18181b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--light-theme);
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.dark-btn {
+  position: absolute;
+  right: 0;
+  margin: 20px 20px 0px 0px;
+}
+
+.dark-btn i {
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.container h1 {
+  margin-top: 10px;
+}
+
+.input-box {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+}
+
+#input {
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  padding-left: 8px;
+  box-shadow: 1px 1px 1px rgb(172, 172, 172);
+  height: 100%;
+  width: 100%;
+}
+
+#submit-btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  padding: 5px;
+  height: 100%;
+  background-color: #000;
+  color: #FFF;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+#submit-btn:hover {
+  color: var(--light-theme);
+  transform: scale(1.05);
+}
+
+.list {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.task-completed {
+  text-decoration: line-through;
+}
+
+.dark-mode {
+  background-color: var(--dark-theme);
+  color: #FFF;
+
+  #submit-btn {
+    background-color: #FFE66D;
+    color: #000;
+  }
+}
